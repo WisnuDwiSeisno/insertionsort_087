@@ -53,4 +53,8 @@ void display() {
 	cout << "Element Array yang telah tersusun" << endl;
 	cout << "=================================" << endl;
 
+	for (int k = o; j < n; j++) {
+		cout << arr[j] << endl;
+	}
 }
+
