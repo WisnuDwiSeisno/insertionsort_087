@@ -26,3 +26,4 @@ void input() {
 		cin >> arr[i];
 	}
 }
+void insertionsort(){}
