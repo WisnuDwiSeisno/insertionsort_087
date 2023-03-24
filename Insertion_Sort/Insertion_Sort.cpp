@@ -35,7 +35,8 @@ void insertionsort(){
 
 		j = i - 1;
 
-		while (j >= 0 && arr[i > temp]) {
+		while (j >= 0 && arr[j] > temp) 
+		{
 			arr[j + 1] = arr[j];
 			j--;
 		}
@@ -49,7 +50,7 @@ void insertionsort(){
 }
 
 void display() {
-	cout << "=================================" << endl;
+	cout << "\n=================================" << endl;
 	cout << "Element Array yang telah tersusun" << endl;
 	cout << "=================================" << endl;
 
